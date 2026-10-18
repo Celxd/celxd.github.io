@@ -1,0 +1,15 @@
+@font-face{
+    font-family: 'Zelda';
+    src: url("../fonts/The Wild Breath of Zelda.otf") format(opentype);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-zelda{
+    font-family:'Zelda', sans-serif;
+}
+
+.font-times{
+    font-family: 'Times New Roman', Times, serif;
+}
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"> </script>
+    <link rel="stylesheet" href="./css/D-Day.css">
+</head>
+
+<body class="font-zelda">
+    <header class="z-[60] sticky top-0">
+        <nav class="relative z-[60] flex items-center justify-between
+         backdrop-filter backdrop-blur-md bg-opacity-40 px-[90px] h-[90px]">
+            <div class="flex flex-row items-center gap-[60px]">
+                <img class="h-14 w-auto" src="./images/Navbar/navbar-logo.svg" alt="Home">
+
+                <ul class="flex flex-row gap-[64px] text-white text-[2rem]">
+                    <a class="hover:underline hover:text-[#F3B641]" href="#hero">
+                        Home</a>
+                    <a class="hover:underline hover:text-[#F3B641]" href="#aboutme">
+                        About Me</a>
+                    <a class="hover:underline hover:text-[#F3B641]" href="#myskills">
+                        My Skills</a>
+                    <a class="hover:underline hover:text-[#F3B641]" href="#Experience">
+                        My Experience</a>
+                </ul>
+            </div>
+
+            <div class="flex flex-row items-center gap-3">
+                <div class="flex flex-row items-center gap-[15px]">
+                    <a href="https://x.com/HMSI_ITS" class="transition duration-200 
+                    ease-in-out hover:grayscale hover:opacity-70" target="_blank">
+                        <img class="w-11" src="../images/Navbar/x-logo.svg" alt="X">
+                    </a>
+
+                    <a href="https://x.com/HMSI_ITS" class="transition duration-200 
+                    ease-in-out hover:grayscale hover:opacity-70" target="_blank">
+                        <img class="w-11" src="../images/Navbar/tiktok-logo.svg" alt="tiktok">
+                    </a>
+
+                    <a href="https://x.com/HMSI_ITS" class="transition duration-200 
+                    ease-in-out hover:grayscale hover:opacity-70" target="_blank">
+                        <img class="w-11" src="../images/Navbar/ig-logo.svg" alt="instagram">
+                    </a>
+                    <a href="https://x.com/HMSI_ITS" class="transition duration-200 
+                    ease-in-out hover:grayscale hover:opacity-70" target="_blank">
+                        <img class="w-11" src="../images/Navbar/yt-logo.svg" alt="youtube">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="bg-black text-white">
+        <!-- Section 1 - Hero -->
+        <section id="hero" class="bg-[red] text-center py-[100px]">
+            <h1 class="font-zelda text-center text-[112px]">My Portfolio</h1>
+            <p class="px-[100px] text-[32px]">Raka Ardi Wiguna</p>
+        </section>
+
+        <!-- Section 2 - About me -->
+        <section id="aboutme" class="w-full">
+            <h2 class="font-zelda text-center text-[80px]">About Me</h2>
+            <p class="px-[100px] text-center text-[32px]">Halo semua aku Raka, aku dari ITS jurusan Sistem Informasi,
+                aku suka ngoding dan belajar.</p>
+
+        </section>
+
+        <!-- Section 3 - My Skills -->
+        <section id="myskills" class="text-left w-full mx-auto p-[60px] w-full">
+            <h2 class="font-zelda text-center text-[80px]">My Skills</h2>
+            <div>
+                <h3 class="font-zelda text-[48px]">Aku tertarik dengan mata kuliah yang ada di sisfor</h3>
+                <ul class="text-[32px] list-inside list-disc">
+                    <li>Matematika</li>
+                    <li>Fisika</li>
+                    <li>Kimia</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 4 -  My Experience -->
+        <section id="Experience" class="py-[100px]">
+            <div>
+                <h2 class="font-zelda text-[112px] text-white text-shadow-[0_5px_0_#7A3D21] text-center">My Experience
+                </h2>
+
+                <img src="images/fotoku/foto1.png" alt="Deskripsi foto 1">
+                <img src="images/fotoku/foto2.png" alt="Deskripsi foto 2">
+                <img src="images/fotoku/foto3.png" alt="Deskripsi foto 3">
+                <img src="images/fotoku/foto4.png" alt="Deskripsi foto 4">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full sm:h-[500px] md:h-[350px] lg:h-[600px] 
+        bg-[url('/images/footer/bg-footer.png')] bg-cover bg-center px-4 py-8 lg:px-[90px] 
+        lg:py-[88px] lg:border-t-[20px] lg:border-t-[#7A3D21] flex justify-center items-center">
+
+        <!-- FRAME Parent -->
+        <div class="flex flex-col sm:w-full h-[440px] md:w-170 lg:w-full md:h-full 
+            bg-[url('/images/footer/frame-footer-mobile.png')]
+            md:bg-[url('/images/footer/frame-footer-desktop.png')] 
+            bg-center bg-contain bg-no-repeat px-6 py-10 lg:px-[20px] items-center justify-center">
+            <!-- NAVBAR -->
+            <div class="flex flex-col lg:flex-row items-center justify-center gap-2 lg:gap-6">
+                <a class="text-[#C07E4E] hover:text-[#F9DCB4] text-[1.5rem] lg:text-[32px]" href="#hero">HOME</a>
+                <a class="text-[#C07E4E] hover:text-[#F9DCB4] text-[1.5rem] lg:text-[32px]" href="#aboutme">ABOUT ME</a>
+                <a class="text-[#C07E4E] hover:text-[#F9DCB4] text-[1.5rem] lg:text-[32px]" href="#myskills">MY SKILLS</a>
+                <a class="text-[#C07E4E] hover:text-[#F9DCB4] text-[1.5rem] lg:text-[32px]" href="#Experience">MY EXPERIENCE</a>
+            </div>
+
+            <!-- Copyright -->
+            <p class="font-times font-bold text-[#F9DCB4] text-[15px] lg:text-[20px] mt-4">&copy; SIMETRI HMSI ITS</p>
+        </div>
+    </footer>
+</body>
+
+</html>
