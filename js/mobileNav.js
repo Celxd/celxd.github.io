@@ -8,7 +8,7 @@ let isOpen = false;
 hamburgerBtn.addEventListener("click", () => {
     isOpen = !isOpen;
 
-    if (isOpen) {
+    if(isOpen) {
         mobileMenu.classList.remove("translate-x-full");
         mobileMenu.classList.add("translate-x-0");
 
@@ -25,4 +25,4 @@ hamburgerBtn.addEventListener("click", () => {
 
         document.body.style.overflow = "";
     }
-});
+})
